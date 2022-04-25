@@ -20,12 +20,12 @@ header{
     width: 100%;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 20%;
-    transform: translateY(-5rem);
+    /* transform: translateY(-5rem); */
 }
 
-header:hover{
+/* header:hover{
     transform: translateY(0);
-}
+} */
 
 header .logo{
     flex: 1;
@@ -205,5 +205,11 @@ nav{
     }
     .logo{
         text-align: center;
+    }
+}
+
+@media (min-width: 800px){
+    .best-players{
+        width: 600px;
     }
 }
